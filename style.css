@@ -1,6 +1,21 @@
 body{
     font-family: 'roboto';
     min-height: 1000px;
-    background: #000;
+    background: rgb(197, 197, 197);
   
+  }
+  .head-one p {
+    text-align: center;
+    color: rgb(245, 2, 2);
+    font-size: 2em;
+  }
+  .head-two p{
+    text-align: center;
+    color: brown;
+    font-size: 1.5em;
+  }
+  .head-box p{
+    text-align: center;
+    color: rgb(0, 55, 236);
+    font-size: 1.3em;
   }
