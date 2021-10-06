@@ -17,10 +17,10 @@ body{
   }
   .head-box{
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 500px;
   }
   .head-box p{
-    text-align: center;
+    margin-left: 250px;
     color: rgb(0, 0, 0);
     font-size: 1.3em;
   }
