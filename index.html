@@ -11,8 +11,49 @@
 <body>
   <div class="head-one">
     <p>Lập Trình Web</p>
-    <p>Chào Mừng Bạn Đến Với HTML</p>
+    <p>Chào Mừng Bạn Đến Với khóa học HTML</p>
   </div>
-     
+  <div class="head-box">
+    <p><b>Danh Sách Học Viên Tham gia khóa học</b></p>
+    <table style="width:60%">
+      <tr class="head-box-one">
+        <td><b>Họ và Tên</b></td>
+        <td><b>Số Điện Thoại</b></td>
+        <td><b>Email</b></td>
+        <td><b>Nơi ở</b></td>
+      </tr>
+      <tr>
+        <td>Đào Xuân Quyền</td>
+        <td>036843****</td>
+        <td>daoquyen***@gmail.con</td>
+        <td>Nam Định</td>
+      </tr>
+      <tr>
+        <td>Nguyễn Văn A</td>
+        <td>034863****</td>
+        <td>Vuighe***@gmail.con</td>
+        <td>Nam Định</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <p><b>Đăng Ký khóa học</b></p>
+    <form action="index.html" method="POST" autocomplete="off">
+      <label for="fname">Họ và tên:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">Số Điện Thoại:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="lname" name="email" value=""><br>
+      <label for="diachi">Nơi ở:</label><br>
+      <input type="text" id="lname" name="diachi" value=""><br>
+      <a>Giới tính</a><br>
+      <label for="gioitinh">Nam</label><input type="radio" name="gioitinh" value="1">
+      <label for="gioitinh">Nữ</label><input type="radio" name="gioitinh" value="2"><br>
+      <input type="submit" value="Submit">     
+    </form> 
+  </div>
+    
+</div>    
 </body>
 </html>

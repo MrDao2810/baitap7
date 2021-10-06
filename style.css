@@ -13,9 +13,25 @@ body{
     text-align: center;
     color: brown;
     font-size: 1.5em;
+    font-size: 1.5em;
+  }
+  .head-box{
+    margin-top: 30px;
+    margin-left: 200px;
   }
   .head-box p{
     text-align: center;
-    color: rgb(0, 55, 236);
+    color: rgb(0, 0, 0);
     font-size: 1.3em;
   }
+table td{
+  border: 1px solid brown;
+}
+.head-box-one {
+  color: rgb(0, 4, 255);
+  text-align: center;
+}
+form{
+  margin-top: 25px;
+}
+
