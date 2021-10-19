@@ -1,0 +1,618 @@
+a {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-image: url(./image/backGround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+  }
+  .header_listNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 3.5rem;
+  }
+  .header_textLink {
+    padding: 1rem;
+    margin-right: 2rem;
+    color: #ffffff;
+  }
+  .header_textLink:hover {
+    color: #b64815;
+  }
+  .header_center {
+    margin-right: 25rem;
+  }
+  .header_listIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .header_itemsIcon {
+    color: #ffffff;
+    margin-right: 3.3rem;
+  }
+  .header_content {
+    text-align: center;
+    width: 5.6 rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+  }
+  .header_text1 {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 84px;
+  }
+  .header_text2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+  .header_btn {
+    padding-bottom: 24.5rem;
+    text-align: center;
+  }
+  .header_btnbtn {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1 solid #2091f9;
+    background-color: #2091f9;
+    border-radius: 3rem;
+    padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  }
+  .header_btnbtn:hover {
+    color: #b64815;
+    background-color: #ffffff;
+  }
+  
+  .feature {
+    width: 100%;
+  }
+  .feature_textContent {
+    margin-top: 11.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .feature_textContent h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+  }
+  .feature_textContent h4 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    width: 50rem;
+  }
+  .feature_list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    width: 900px;
+    height: 257px;
+    left: calc(50% - 900px / 2);
+    bottom: 842.3px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 80px 0px;
+  }
+  .feature_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 255px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6.7rem;
+  }
+  .feature_items h5,
+  .feature_items p {
+    display: block;
+  }
+  .feature_items i {
+    font-size: 3rem;
+    position: static;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    /* Primary */
+    background: #7bb0e2;
+  }
+  .feature_items h5 {
+    position: static;
+    left: 4.67%;
+    right: 4.67%;
+    top: 13.16%;
+    bottom: 13.16%;
+    /* H3 */
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    /* text */
+    color: #252b42;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .feature_items p {
+    position: static;
+    left: 3.98%;
+    right: 3.98%;
+    top: 0%;
+    bottom: 0%;
+    /* Paragraphe */
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* second text */
+    color: #374754;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+  }
+  .feature_content {
+    width: 100%;
+    padding-bottom: 5.3rem;
+  }
+  .feature_img {
+    width: 80rem;
+    height: 60rem;
+    display: block;
+    margin-left: calc(50% - 80rem / 2);
+  }
+  
+  .fastest {
+    width: 100%;
+    margin-top: 22.6rem;
+    margin-bottom: 22.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fastest_right {
+    width: 60rem;
+    height: 38rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fastest_right img {
+    width: 54.5rem;
+    height: 25rem;
+  }
+  .fastest_left {
+    width: 54.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fastest_left h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.5rem;
+    letter-spacing: 0.2px;
+    width: 33rem;
+  }
+  .fastest_left h4 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0.2px;
+  }
+  .fastest .button {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    background-color: #2091f9;
+    padding: 1.6rem 3.5rem;
+    border-radius: 3rem;
+  }
+  .fastest .button:hover {
+    color: #b64815;
+    background-color: #5ac1d3;
+  }
+  
+  .email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4.4rem;
+    padding-bottom: 4.3rem;
+  }
+  .email_left {
+    width: 70rem;
+    margin-right: 5rem;
+  }
+  .email_left img {
+    width: 70rem;
+    height: 50rem;
+  }
+  .email_right h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+  }
+  .email_right h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.5rem;
+  }
+  .email_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .email_inputText {
+    background: #eeebeb;
+    border-radius: 30px;
+    font-size: 2.5rem;
+    border: 1px solid #e4dada;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-right: 5rem;
+  }
+  .email_inputText:active {
+    color: #4636d8;
+    background-color: #e9c0d3;
+    border: 1px solid #e9c0d3;
+  }
+  .email_inputText:hover {
+    color: #4636d8;
+    background-color: #e9c0d3;
+    border: 1px solid #e9c0d3;
+  }
+  .email .button {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1 solid #2091f9;
+    background-color: #2091f9;
+    border-radius: 3rem;
+    padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  }
+  .email .button:hover {
+    color: #b64815;
+    background-color: #5ac1d3;
+  }
+  
+  .partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+  }
+  .partners_text {
+    padding-top: 5rem;
+    text-align: center;
+    width: 50rem;
+  }
+  .partners_text h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 5.5rem;
+    padding: 1rem;
+  }
+  .partners_text h4 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 4rem;
+    padding: 1rem;
+  }
+  .partners_logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9rem;
+    margin-bottom: 8rem;
+  }
+  .partners_logo_Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .partners_logo_img {
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    transition: 0.25s;
+  }
+  .partners_logo_img h6 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    padding-top: 32;
+    text-align: center;
+  }
+  .partners_logo_img img {
+    margin-left: 4rem;
+    margin-bottom: 3.2rem;
+    margin-right: 4rem;
+  }
+  .partners_logo_img:hover {
+    transform: scale(1.1);
+    background-color: #faecf2;
+  }
+  .partners_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .partners_btnbtn {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1 solid #2091f9;
+    background-color: #2091f9;
+    border-radius: 3rem;
+    padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  }
+  .partners_btnbtn:hover {
+    color: #b64815;
+    background-color: #5ac1d3;
+  }
+  
+  .ibm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ibm_text {
+    text-align: center;
+    margin-top: 11.1rem;
+    padding: 1rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.5rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 9rem;
+  }
+  .ibm_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .ibm_logo {
+    margin-bottom: 6rem;
+  }
+  .ibm_text2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0.2px;
+    width: 98rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .ibm_client {
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+  }
+  .ibm_client_text h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    letter-spacing: 0.2px;
+  }
+  .ibm_client_text a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    letter-spacing: 0.2px;
+    color: #0e2d47;
+  }
+  .ibm_client_text a:hover {
+    color: #b64815;
+  }
+  .ibm_avt {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .ibm_btn {
+    margin-bottom: 10rem;
+  }
+  .ibm_btnbtn {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1 solid #2091f9;
+    background-color: #2091f9;
+    border-radius: 3rem;
+    padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  }
+  .ibm_btnbtn:hover {
+    color: #b64815;
+    background-color: #5ac1d3;
+  }
+  
+  .pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252b42;
+  }
+  .pricing_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+  }
+  .pricing_text h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: white;
+    padding: 1rem;
+  }
+  .pricing_text h4 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.7rem;
+  }
+  .pricing_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: -50px;
+  }
+  .pricing_Cupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .pricing_Cupon:nth-child(2) {
+    background-color: #3480c7;
+    color: white;
+  }
+  .pricing_heading {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .pricing_heading h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+  .pricing_heading h6 {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+  }
+  .pricing_price {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .pricing_price_left {
+    margin-right: 10px;
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 84px;
+  }
+  .pricing_price_right_top {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .pricing_price_right_button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .pricing_list {
+    margin-top: 28.5px;
+    padding-bottom: 20px;
+  }
+  .pricing_list h5 {
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .pricing_btn {
+    padding-bottom: 4rem;
+  }
+  .pricing_btnbtn {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1 solid #2091f9;
+    background-color: #2091f9;
+    border-radius: 3rem;
+    padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  }
+  .pricing .chan {
+    height: 950px;
+  }
+  
