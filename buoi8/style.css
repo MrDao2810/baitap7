@@ -1,0 +1,32 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	font-size: 25px;
+}
+form {
+	padding-bottom: 10px;
+}
+input {
+	height: 30px;
+	width: 500px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+div {
+	padding-bottom: 10px;
+}
+button{
+	background-color: rgb(180, 24, 146);
+	height: 30px;
+	width: 40px;
+	border-radius: 3px;
+}
+textarea{
+	width: 450px;
+	border-radius: 3px;
+	
+}
+#bt_bcc{
+	width: 200px;
+}
+
