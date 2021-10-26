@@ -60,6 +60,9 @@ switch (gpaScore) {
         console.log(gpaScore + " " + "6");
         break;
 }
+// break; => thoát khỏi vòng lặp
+
+
 
 // vòng lặp :
 // in ra màn hình log 1 , 2 ,3 ,4 ,5 
@@ -72,3 +75,49 @@ switch (gpaScore) {
 for ( let index = 0 ; index < 4; index++){
     console.log(index + 1);
 }
+
+// Vòng lặp
+// vòng lặp vô hạn
+
+
+for(let i = 20; i <= 30;) {
+    alert(`khoong ổn rồi ${i}`);
+}
+for (let index = 0 ; index<10; index++){}
+//in ra log 10 lần 
+
+
+let begin = 0;
+while (begin < 10){
+    console.log("counter", begin);
+    begin++;
+
+}
+while (condition){
+}
+
+// do while : làm trước rồi mới so sánh tác dụng (chưa cần biết đúng sai cứ làm đã rồi so sánh)
+// luôn lặp tối thiểu 1 lần
+let checkDo = 20;
+do {
+    console.log(checkDo);
+    checkDo++;
+} while (checkDo < 10);
+--*--
+// thoát khỏi vòng lặp break. 
+let sum = 0 ;
+while (true) {
+    let value = +prompt("Enter number");
+    if(!value) break;
+    sum += value;    
+}
+alert(sum);
+--*--
+--*--
+// thoát khỏi lần lặp hiện tại continue
+// log ra các số lẻ
+for (let index = 0; index < 10; index++) {
+    if (index % 2 === 0 ) continue ;
+        console.log(index);   
+}
+--*--

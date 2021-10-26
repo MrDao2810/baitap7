@@ -22,6 +22,9 @@ function giaiPT() {
 }
 
 
+
+
+
 function chungminh() {
     var n = parseInt(document.getElementById('nguyena').value, 10);
     var nt  = 0,
@@ -42,4 +45,11 @@ function chungminh() {
         text2 = 'So ' + n + ' Khong Phai la so Nguyen To ';
     }
     document.getElementById('ketQua1').value = text2;
+}
+
+
+
+
+for(let i = 20; i <= 30; i++) {
+    alert(`không ổn rồi ${i}`);
 }
