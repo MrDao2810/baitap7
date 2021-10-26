@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>    
+</head>
+<script src='./index.js'></script>
+<body>
+    <div>
+        <h3>Tính số nguyên tố từ 1 tới n</h3>
+        <input id="soN" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua" name="ketQua" type="text" placeholder="Danh sach cac so nguyen to" readonly><br />
+        <button id="ketQuaSoNT" onclick="soNT()">Giai</button>
+    </div>
+    <div>
+        <h3>Tính tổng từ 1 tới n</h3>
+        <input id="soN1" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua1" name="ketQua" type="text" placeholder="Tổng các số từ 1 đến n" readonly><br />
+        <button id="ketQuaTinhTong" onclick="tinhTong()">Giai</button>
+    </div>
+    <div>
+        <h3>Tính tổng bình phương từ 1 tới n</h3>
+        <input id="soN2" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua2" name="ketQua" type="text" placeholder="Tổng bình phương từ 1 đến n" readonly><br />
+        <button id="ketQuaTinhTongBP" onclick="tinhTongBP()">Giai</button>
+    </div>
+    <div>
+        <h3>Tính tổng các số lẻ từ 1 tới n</h3>
+        <input id="soN3" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua3" name="ketQua" type="text" placeholder="Tổng các số lẻ" readonly><br />
+        <button id="TongSoLe" onclick="tinhTongLe()">Giai</button>
+    </div>
+    <div>
+        <h3>Kiểm tra số N có toàn lẻ hay không?</h3>
+        <input id="soN4" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua4" name="ketQua" type="text" placeholder="Kiểm tra số n có toàn lẻ hay không" readonly><br />
+        <button id="KiemTraSoToanLe" onclick="kiemTraSoToanLe()">Giai</button>
+    </div>
+    <div>
+        <h3>Kiểm tra số N có đối xứng hay không?</h3>
+        <input id="soN5" name="N" type="number" placeholder="nhap N" autocomplete="organization" /><br />
+        <input id="ketQua5" name="ketQua" type="text" placeholder="Kiểm tra số N có đối xứng hay không?" readonly><br />
+        <button id="KiemTraSoDoiXung" onclick="kiemTraSoDoiXung()">Giai</button>
+    </div>
+    <div>
+        <h3>Bảng cửu chương</h3>
+        <button id="bt_bcc" onclick="bangCuuChuong();">Bảng cửu chương</button><br>
+        <textarea id="ketQua6" class="form-control mt-3" cols="30" rows="5" placeholder="kết quả" required></textarea>
+    </div>
+</body>
+</html>
