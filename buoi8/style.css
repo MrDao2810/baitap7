@@ -1,6 +1,6 @@
 body {
-	width: 900px;
-	margin: 0 auto;
+	
+	margin: 25px 40px;
 	font-size: 25px;
 }
 form {
@@ -16,7 +16,7 @@ div {
 	padding-bottom: 10px;
 }
 button{
-	background-color: rgb(180, 24, 146);
+	background-color: rgb(0, 153, 255);
 	height: 30px;
 	width: 40px;
 	border-radius: 3px;
