@@ -229,8 +229,4 @@ function bai29(){
     })
     console.log("Mang sau khi sap xep:");
     console.log(students);
-    // for(var i =0; i<n; i++)
-    // {
-
-    // 
 }
