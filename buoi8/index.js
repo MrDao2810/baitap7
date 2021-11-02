@@ -234,4 +234,3 @@ function bai29(){
 
     // 
 }
-bai29()
